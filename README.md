@@ -1,17 +1,21 @@
 # Filesfm MacOS
 
-## How do I install these formulae?
+## How do I install these casks?
 
-`brew install filesfm/macos/<formula>`
+`brew install --cask filesfm/macos/<cask>`
 
-Or `brew tap filesfm/macos` and then `brew install <formula>`.
+Or `brew tap filesfm/macos` and then `brew install --cask <cask>`.
 
 Or, in a `brew bundle` `Brewfile`:
 
 ```ruby
 tap "filesfm/macos"
-brew "<formula>"
+cask "<cask>"
 ```
+
+## Available casks
+
+- `worktime`: [WorkTime](https://github.com/filesfm/WorkTime), a Qt6/QML desktop time tracker
 
 ## Documentation
 
