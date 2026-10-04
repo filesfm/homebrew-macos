@@ -1,9 +1,9 @@
 cask "worktime" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "0.5.21"
-  sha256 arm:   "efcbdaae409ce4fa05986370e30497c62f54f58d868363f3cb16d5b42e4a5451",
-         intel: "71f9a2ff4407ab9aa4ba553b204488173deb34dc32c24bbafb256e81ba7fbc9a"
+  version "0.5.22"
+  sha256 arm:   "cf9f479fb1f2596daf8d6165be0ded95c175c89f0642baf066090680da398740",
+         intel: "0757912a4eb2cf8d68c967f698a16b0cca045b477e461f2b1dbc18fffc1f8459"
 
   url "https://github.com/filesfm/WorkTime/releases/download/v#{version}/worktime-v#{version}-#{arch}.dmg"
   name "WorkTime"
