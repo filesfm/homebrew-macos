@@ -1,6 +1,6 @@
 cask "files-fm-sync" do
   version "3.16.7"
-  sha256 "9dd6e78b97e21afeae821730ec0d6287628a31b6af38b0c631a9858cd2d4d0f2"
+  sha256 "57390383fddc8a3f73b4b0876aa7543d7648ccd349026ce6ab4d17ed9198c3fa"
 
   url "https://github.com/filesfm/Sync/releases/download/v#{version}/files_fm_sync-#{version}.dmg"
   name "Files.fm Sync"
@@ -14,7 +14,7 @@ cask "files-fm-sync" do
 
   depends_on macos: :sonoma
 
-  app "Files.fm Sync 2025.app"
+  app "Files.fm Sync 2027.app"
 
   zap trash: "~/Library/Preferences/com.files.fm.sync.plist"
 end
