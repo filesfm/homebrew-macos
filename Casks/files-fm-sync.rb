@@ -1,6 +1,6 @@
 cask "files-fm-sync" do
-  version "3.16.8"
-  sha256 "9db3bc8faff1b344c11be4369b4f8e9962233f222922cd4ec607e723709a3500"
+  version "3.16.21"
+  sha256 "7af8b4f516f146e153bf17986f8677723911e90aae2f42e33a5fd1a756af7c22"
 
   url "https://github.com/filesfm/Sync/releases/download/v#{version}/files_fm_sync-#{version}.dmg"
   name "Files.fm Sync"
